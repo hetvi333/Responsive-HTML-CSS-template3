@@ -131,6 +131,10 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  a.logo{
+    font-size: 35px;
+  }
   nav ul {
     margin-right: 0;
   }
@@ -149,8 +153,8 @@
     line-height: 18px;
   }
   .main {
+    flex-direction: column;
     padding: 20px;
-    justify-content: space-around;
   }
 
   .main .about {
@@ -350,9 +354,6 @@
   p {
     font-size: 10px;
     line-height: 18px;
-  }
-  .main {
-    flex-direction: column;
   }
 
   .main .about h6 {
