@@ -1,12 +1,11 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
-  font-family: "Open Sans", sans-serif
+  font-family: "Open Sans", sans-serif;
 }
 
 html {
@@ -101,7 +100,6 @@ nav ul li a:hover {
 }
 
 .main .about h4 {
-
   font-size: 40px;
   font-weight: bold;
   line-height: 55px;
@@ -162,27 +160,31 @@ button {
   margin-top: 30px;
 }
 
-.learn, .learn2 {
+.learn,
+.learn2 {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 50px;
 }
 
-.learn .learn-more, .learn2 .learn-more {
+.learn .learn-more,
+.learn2 .learn-more {
   padding: 10px;
   margin: 10px;
   width: 400px;
 }
 
-.learn h4, .learn2 h4{
+.learn h4,
+.learn2 h4 {
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
   word-wrap: break-word;
 }
 
-.learn p, .learn2 p {
+.learn p,
+.learn2 p {
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
@@ -190,7 +192,6 @@ button {
   text-align: left;
   word-wrap: break-word;
   color: #21252980;
-
 }
 
 .team {
@@ -200,12 +201,15 @@ button {
 }
 
 .cards {
+  width: 100%;
   display: flex;
   margin-top: 25px;
+  padding: 5px;
+  justify-content: space-evenly;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 50%;
+  width: 100%;
   border-radius: 5px;
   margin: 10px;
 }
@@ -213,7 +217,6 @@ button {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-
 
 .container {
   padding: 2px 16px;
@@ -272,9 +275,8 @@ footer p {
 .potfolio .template {
   margin: 20px;
   display: grid;
- grid-template-columns: 1fr 1fr;
- column-gap: 5px;
- 
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
 }
 
 .potfolio .template img {
@@ -293,9 +295,10 @@ footer p {
 }
 
 .pricing {
-  margin-top: 30px ;
+  width: 100%;
+  margin-top: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .pricing .plan {
@@ -325,7 +328,8 @@ footer p {
   letter-spacing: 0px;
 }
 
-.pricing .plan span, .pricing .plan p {
+.pricing .plan span,
+.pricing .plan p {
   font-size: 13px;
   font-weight: 400;
   line-height: 16px;
@@ -333,19 +337,19 @@ footer p {
   color: #21252980;
 }
 
-.pricing .plan ul{
-margin: 20px;
+.pricing .plan ul {
+  margin: 20px;
 }
 
-.pricing .plan ul li{
-font-size: 15px;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0px;
-text-align: center;
+.pricing .plan ul li {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
 }
 
-.pricing .plan ul li i{
+.pricing .plan ul li i {
   margin-right: 1rem;
   font-size: 1.5rem;
   color: #74c69d;
@@ -353,13 +357,13 @@ text-align: center;
 
 /* contact-us.html */
 
-.contact{
+.contact {
   text-align: center;
   margin: 20px;
   padding: 20px;
 }
 
-.contact .details{
+.contact .details {
   display: flex;
   margin: 20px;
   justify-content: space-around;
@@ -367,33 +371,32 @@ text-align: center;
   align-items: center;
 }
 
-.contact .details .form label{
+.contact .details .form label {
   font-size: 20px;
   font-weight: 400;
   line-height: 25px;
-  letter-spacing: 0px; 
+  letter-spacing: 0px;
 }
 
 .contact .details .form {
   width: 50%;
   padding: 10px;
 }
-.contact .details .form textarea{
+.contact .details .form textarea {
   margin: 1rem 0;
   border-radius: 4px;
-  border:1px solid black;
-
+  border: 1px solid black;
 }
 
-.contact .details .form input{
+.contact .details .form input {
   width: 400px;
   height: 40px;
   margin: 1rem 0;
   border-radius: 4px;
-  border:1px solid black;
+  border: 1px solid black;
   word-wrap: break-word;
 }
-.contact .map img{
+.contact .map img {
   width: 100%;
   height: auto;
 }
