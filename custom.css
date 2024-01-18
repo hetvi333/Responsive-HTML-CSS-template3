@@ -72,15 +72,12 @@
   }
   .cards .card {
     width: 100%;
-    padding: 10px;
-    min-width: 120px;
   }
 
   .cards .card img {
-    width: 100%;
+    width: auto;
     height: auto;
   }
-
 
   /* contact-us.html */
   .contact {
@@ -119,6 +116,17 @@
   .details button {
     width: 100%;
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cards .card {
+    width: 45%;
   }
 }
 
@@ -185,28 +193,17 @@
 
   .learn h4,
   .learn2 h4 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .learn p,
   .learn2 p {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .team {
     margin: 10px;
     padding: 0;
-  }
-
-  .cards .card {
-    width: 100%;
-    min-width: 100px;
-    padding: 0;
-  }
-
-  .cards .card img {
-    width: 100%;
-    height: auto;
   }
 
   /* portfolio.html */
@@ -276,6 +273,29 @@
   }
 }
 
+@media screen and (max-width: 500px){
+  .learn {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .learn2 {
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+
+  .learn img,
+  .learn2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .learn .learn-more,
+  .learn2 .learn-more {
+    width: auto;
+  }
+}
+
 @media screen and (max-width: 445px) {
   .checkbtn {
     display: block;
@@ -284,6 +304,23 @@
   nav ul {
     display: none;
   }
+
+    /* service.html*/
+
+    .service {
+      text-align: center;
+      margin: 20px;
+      padding: 20px;
+    }
+  
+    .pricing {
+      flex-direction: column;
+    }
+    .pricing .plan p,
+    .pricing .plan ul li {
+      font-size: 13px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -300,6 +337,7 @@
 
   button {
     margin-top: 15px;
+    width: 100% ;
   }
   h6 {
     font-size: 15px;
@@ -351,24 +389,11 @@
   }
 
   .learn {
-    flex-direction: column;
-    margin: 0;
-  }
-
-  .learn img,
-  .learn2 img {
-    width: 100%;
-    height: auto;
+    margin: 10px;
   }
 
   .learn2 {
-    flex-direction: column-reverse;
-    margin: 0;
-  }
-
-  .learn .learn-more,
-  .learn2 .learn-more {
-    width: auto;
+    margin: 10px;
   }
 
   .team {
@@ -382,7 +407,7 @@
   }
 
   .cards .card {
-    width: 100%;
+    width: 80%;
   }
 
   .cards .card img {
@@ -408,22 +433,6 @@
     width: 100%;
     height: auto;
     margin: 14px 0;
-  }
-
-  /* service.html*/
-
-  .service {
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
-  }
-
-  .pricing {
-    flex-direction: column;
-  }
-  .pricing .plan p,
-  .pricing .plan ul li {
-    font-size: 13px;
   }
 
   /* contact-us.html */
