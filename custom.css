@@ -1,0 +1,471 @@
+@media screen and (max-width: 900px) {
+  button {
+    margin-top: 10px;
+  }
+  h4 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .main {
+    padding: 20px;
+    justify-content: space-around;
+  }
+
+  .main .about {
+    width: 100%;
+  }
+
+  .main .about h4 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .main img {
+    width: 100%;
+    height: auto;
+  }
+
+  .partners {
+    margin: 20px;
+  }
+
+  .partners ul img {
+    width: 90%;
+    height: auto;
+  }
+
+  .learn,
+  .learn2 {
+    margin: 30px;
+  }
+
+  .learn .learn-more,
+  .learn2 .learn-more {
+    padding: 0;
+    margin: 10px;
+  }
+  .learn img,
+  .learn2 img {
+    width: 80%;
+    height: auto;
+  }
+
+  .learn h4,
+  .learn2 h4 {
+    font-size: 30px;
+  }
+
+  .learn p,
+  .learn2 p {
+    font-size: 13px;
+  }
+  .team {
+    margin: 10px;
+    padding: 0;
+  }
+  .cards {
+    width: 100%;
+  }
+  .cards .card {
+    width: 100%;
+    padding: 10px;
+    min-width: 120px;
+  }
+
+  .cards .card img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  /* contact-us.html */
+  .contact {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+  .contact .details {
+    justify-content: space-around;
+  }
+
+  .contact .map img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact .details .form {
+    width: 50%;
+    text-align: left;
+    margin: 20px;
+  }
+
+  .contact .details .form label {
+    font-size: 15px;
+  }
+
+  .contact .details .form input {
+    width: 100%;
+    height: 30px;
+  }
+  .contact .details .form textarea {
+    width: 100%;
+    height: 60px;
+  }
+
+  .details button {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    margin-right: 0;
+  }
+  header a {
+    font-size: 15px;
+  }
+  button {
+    margin-top: 10px;
+  }
+  h4 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .main {
+    padding: 20px;
+    justify-content: space-around;
+  }
+
+  .main .about {
+    width: 100%;
+  }
+
+  .main .about h4 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .main img {
+    width: 100%;
+    height: auto;
+  }
+
+  .partners {
+    margin: 20px;
+  }
+
+  .partners ul img {
+    width: 85%;
+    height: auto;
+  }
+  .learn,
+  .learn2 {
+    margin: 20px;
+  }
+
+  .learn .learn-more,
+  .learn2 .learn-more {
+    padding: 0;
+    margin: 10px;
+  }
+  .learn img,
+  .learn2 img {
+    width: 80%;
+    height: auto;
+  }
+
+  .learn h4,
+  .learn2 h4 {
+    font-size: 30px;
+  }
+
+  .learn p,
+  .learn2 p {
+    font-size: 13px;
+  }
+
+  .team {
+    margin: 10px;
+    padding: 0;
+  }
+
+  .cards .card {
+    width: 100%;
+    min-width: 100px;
+    padding: 0;
+  }
+
+  .cards .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* portfolio.html */
+  .potfolio .template {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .potfolio .template img {
+    width: 100%;
+    height: auto;
+    margin: 14px 0;
+  }
+
+  /* service.html */
+
+  .service {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .pricing .plan p,
+  .pricing .plan ul li {
+    font-size: 13px;
+  }
+  /* contact-us.html */
+
+  .contact .details {
+    flex-direction: column-reverse;
+    margin: 15px 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact .details .map {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact .details .map img {
+    max-width: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .contact .details .form {
+    width: 100%;
+    text-align: left;
+  }
+
+  .contact .details .form label {
+    font-size: 15px;
+  }
+
+  .contact .details .form input {
+    width: 100%;
+    height: 30px;
+  }
+  .contact .details .form textarea {
+    width: 100%;
+    height: 80px;
+  }
+
+  .details button {
+    width: 100%;
+  }
+  footer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .checkbtn {
+    display: block;
+    margin-top: 30px;
+  }
+  nav ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* index.html */
+
+  .checkbtn {
+    display: block;
+    margin-top: 30px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  button {
+    margin-top: 15px;
+  }
+  h6 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  h4 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  p {
+    font-size: 10px;
+    line-height: 18px;
+  }
+  .main {
+    flex-direction: column;
+  }
+
+  .main .about h6 {
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  .main .about h4 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .main .about p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .main img {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .partners ul {
+    flex-direction: column;
+  }
+  .partners ul li {
+    margin: 10px auto;
+  }
+
+  .partners ul img {
+    width: 70%;
+    height: auto;
+  }
+
+  .learn {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .learn img,
+  .learn2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .learn2 {
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+
+  .learn .learn-more,
+  .learn2 .learn-more {
+    width: auto;
+  }
+
+  .team {
+    margin: 30px;
+    padding: 20px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards .card {
+    width: 100%;
+  }
+
+  .cards .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer p {
+    font-size: 15px;
+  }
+
+  footer ul li {
+    margin-left: 1rem;
+  }
+
+  /* portfolio.html */
+
+  .potfolio .template img {
+    width: 100%;
+    height: auto;
+    margin: 14px 0;
+  }
+
+  /* service.html*/
+
+  .service {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .pricing {
+    flex-direction: column;
+  }
+  .pricing .plan p,
+  .pricing .plan ul li {
+    font-size: 13px;
+  }
+
+  /* contact-us.html */
+
+  .contact {
+    padding: 0;
+  }
+  .contact .details {
+    flex-direction: column-reverse;
+    margin: 15px 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact .details .map {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact .details .map img {
+    max-width: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .contact .details .form {
+    width: 100%;
+    text-align: left;
+  }
+
+  .contact .details .form label {
+    font-size: 15px;
+  }
+
+  .contact .details .form input {
+    width: 100%;
+    height: 30px;
+  }
+  .contact .details .form textarea {
+    width: 100%;
+    height: 80px;
+  }
+
+  .details button {
+    width: 100%;
+  }
+}
